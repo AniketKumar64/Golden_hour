@@ -46,7 +46,7 @@ const About = () => {
 
     return (
         <div id="about">
-            <div className="mb-16 md:px- px-5 ">
+            <div className="mb-16  md:px- px-5 ">
                 <div className="content">
                     <div className="md:col-span-8">
                         <h2>
