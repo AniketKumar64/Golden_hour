@@ -1,183 +1,183 @@
 const navLinks = [
- {
-	id: "cocktails",
-	title: "Cocktails",
- },
- {
-	id: "about",
-	title: "About Us",
- },
- {
-	id: "work",
-	title: "The Art",
- },
- {
-	id: "contact",
-	title: "Contact",
- },
+  {
+    id: "cocktails",
+    title: "Cocktails",
+  },
+  {
+    id: "about",
+    title: "La Nostra Storia", // Our Story
+  },
+  {
+    id: "work",
+    title: "L’Arte del Bere", // The Art of Drinking
+  },
+  {
+    id: "contact",
+    title: "Contattaci", // Contact Us
+  },
 ];
 
 const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Negroni Classico",
+    country: "IT",
+    detail: "90 ml",
+    price: "€12",
+  },
+  {
+    name: "Aperol Spritz",
+    country: "IT",
+    detail: "150 ml",
+    price: "€10",
+  },
+  {
+    name: "Amaro Montenegro",
+    country: "IT",
+    detail: "100 ml",
+    price: "€15",
+  },
+  {
+    name: "Limoncello Martini",
+    country: "IT",
+    detail: "120 ml",
+    price: "€14",
+  },
 ];
 
 const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Fragola Fresca",
+    country: "IT",
+    detail: "250 ml",
+    price: "€8",
+  },
+  {
+    name: "Pesca e Menta",
+    country: "IT",
+    detail: "250 ml",
+    price: "€9",
+  },
+  {
+    name: "Citrus Italiano",
+    country: "IT",
+    detail: "300 ml",
+    price: "€8",
+  },
+  {
+    name: "Lavanda Frizzante",
+    country: "IT",
+    detail: "250 ml",
+    price: "€9",
+  },
 ];
 
 const profileLists = [
- {
-	imgPath: "/images/profile1.png",
- },
- {
-	imgPath: "/images/profile2.png",
- },
- {
-	imgPath: "/images/profile3.png",
- },
- {
-	imgPath: "/images/profile4.png",
- },
+  {
+    imgPath: "/images/profile1.png",
+  },
+  {
+    imgPath: "/images/profile2.png",
+  },
+  {
+    imgPath: "/images/profile3.png",
+  },
+  {
+    imgPath: "/images/profile4.png",
+  },
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Autentici sapori italiani",
+  "Ingredienti freschi e locali",
+  "Serviti con eleganza",
+  "Tradizione e innovazione nel bicchiere",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Ingredienti selezionati a mano",
+  "Tecniche di miscelazione italiane",
+  "Arte della mixology",
+  "Gusto fresco in ogni sorso",
 ];
 
 const storeInfo = {
- heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
- contact: {
-	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
- },
+  heading: "Dove Trovarci",
+  address: "Via Roma 123, Milano, Italia",
+  contact: {
+    phone: "+39 055 987 6543",
+    email: "ciao@italianobar.com",
+  },
 };
 
 const openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- { day: "Sat", time: "9:00am – 2am" },
- { day: "Sun", time: "9:00am – 1am" },
+  { day: "Lun–Gio", time: "11:00 – 00:00" },
+  { day: "Ven", time: "11:00 – 02:00" },
+  { day: "Sab", time: "10:00 – 02:00" },
+  { day: "Dom", time: "10:00 – 01:00" },
 ];
 
 const socials = [
- {
-	name: "Instagram",
-	icon: "/images/insta.png",
-	url: "#",
- },
- {
-	name: "X (Twitter)",
-	icon: "/images/x.png",
-	url: "#",
- },
- {
-	name: "Facebook",
-	icon: "/images/fb.png",
-	url: "#",
- },
+  {
+    name: "Instagram",
+    icon: "/images/insta.png",
+    url: "#",
+  },
+  {
+    name: "X (Twitter)",
+    icon: "/images/x.png",
+    url: "#",
+  },
+  {
+    name: "Facebook",
+    icon: "/images/fb.png",
+    url: "#",
+  },
 ];
 
 const sliderLists = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+  {
+    id: 1,
+    name: "Negroni Sbagliato",
+    image: "/images/drink1.png",
+    title: "Un Classico con un Twist",
+    description:
+      "Creato a Milano, il Negroni Sbagliato unisce Prosecco, Vermouth e Campari per un gusto raffinato e leggermente frizzante.",
+  },
+  {
+    id: 2,
+    name: "Aperol Spritz",
+    image: "/images/drink2.png",
+    title: "Il Re dell’Aperitivo Italiano",
+    description:
+      "Un mix fresco di Aperol, Prosecco e soda: leggero, frizzante e perfetto per ogni tramonto estivo.",
+  },
+  {
+    id: 3,
+    name: "Bellini Veneziano",
+    image: "/images/drink3.png",
+    title: "Dolce, Fruttato, Elegante",
+    description:
+      "Prosecco e purea di pesca bianca creano un cocktail elegante, nato a Venezia per celebrare momenti speciali.",
+  },
+  {
+    id: 4,
+    name: "Limoncello Tonic",
+    image: "/images/drink4.png",
+    title: "Freschezza Mediterranea",
+    description:
+      "Un mix di Limoncello, acqua tonica e scorza di limone: fresco, frizzante e irresistibilmente italiano.",
+  },
 ];
 
 export {
- navLinks,
- cocktailLists,
- mockTailLists,
- profileLists,
- featureLists,
- goodLists,
- openingHours,
- storeInfo,
- socials,
- sliderLists,
+  navLinks,
+  cocktailLists,
+  mockTailLists,
+  profileLists,
+  featureLists,
+  goodLists,
+  openingHours,
+  storeInfo,
+  socials,
+  sliderLists,
 };
