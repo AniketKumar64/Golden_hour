@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <nav>
-    <div className="">
+    <div className="px-4 md:px-0 container mx-auto flex justify-between items-center h-20">
         <a href="#home" className='flex items-center gap-2'>
             <img src="/images/logo.png" alt="" />
-            <p>orsi d’Oro</p>
+            <p>Golden Hour</p>
         </a>
 
         <ul>

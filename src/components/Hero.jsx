@@ -78,7 +78,7 @@ const Hero = () => {
   return (
 <>
 <section id='hero' className=''>
-    <h1 className='title uppercase'>make it</h1>
+    <h1 className='title uppercase'>Golden Hour</h1>
 
     <img src="/images/hero-left-leaf.png" alt="" className='left-leaf' />
     <img src="/images/hero-right-leaf.png" alt="" className='right-leaf' />
@@ -94,12 +94,12 @@ const Hero = () => {
             </div>
             
     <div className="view-cocktails">
-        <p className="subtitle">
-            Lorem, ipsum dolor sit amet consectetur consectetur adipisicing elit.
-             </p>
-        <a href="#cocktails"> view Cocktails</a>
-    </div>
-     
+    <p className="subtitle">
+        Check out our yummy and colorful drinks made just for you!
+    </p>
+    <a href="#cocktails">See Drinks</a>
+</div>
+
         </div>
     </div>
 

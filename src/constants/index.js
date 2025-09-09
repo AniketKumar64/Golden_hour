@@ -1,171 +1,100 @@
 const navLinks = [
-  {
-    id: "cocktails",
-    title: "Cocktails",
-  },
-  {
-    id: "about",
-    title: "La Nostra Storia", // Our Story
-  },
-  {
-    id: "work",
-    title: "L’Arte del Bere", // The Art of Drinking
-  },
-  {
-    id: "contact",
-    title: "Contattaci", // Contact Us
-  },
+  { id: "drinks", title: "Drinks" },
+  { id: "about", title: "Story" },
+  { id: "work", title: "Making" },
+  { id: "contact", title: "Contact" },
 ];
 
+
 const cocktailLists = [
-  {
-    name: "Negroni Classico",
-    country: "IT",
-    detail: "90 ml",
-    price: "€12",
-  },
-  {
-    name: "Aperol Spritz",
-    country: "IT",
-    detail: "150 ml",
-    price: "€10",
-  },
-  {
-    name: "Amaro Montenegro",
-    country: "IT",
-    detail: "100 ml",
-    price: "€15",
-  },
-  {
-    name: "Limoncello Martini",
-    country: "IT",
-    detail: "120 ml",
-    price: "€14",
-  },
+  { name: "Fruit Punch Special", country: "IT", detail: "90 ml", price: "€5" },
+  { name: "Orange Sparkle", country: "IT", detail: "150 ml", price: "€4" },
+  { name: "Sweet Berry Mix", country: "IT", detail: "100 ml", price: "€6" },
+  { name: "Lemon Delight", country: "IT", detail: "120 ml", price: "€5" },
 ];
 
 const mockTailLists = [
-  {
-    name: "Fragola Fresca",
-    country: "IT",
-    detail: "250 ml",
-    price: "€8",
-  },
-  {
-    name: "Pesca e Menta",
-    country: "IT",
-    detail: "250 ml",
-    price: "€9",
-  },
-  {
-    name: "Citrus Italiano",
-    country: "IT",
-    detail: "300 ml",
-    price: "€8",
-  },
-  {
-    name: "Lavanda Frizzante",
-    country: "IT",
-    detail: "250 ml",
-    price: "€9",
-  },
+  { name: "Fresh Strawberry Splash", country: "IT", detail: "250 ml", price: "€3" },
+  { name: "Peach & Mint Twist", country: "IT", detail: "250 ml", price: "€3.5" },
+  { name: "Citrus Sunshine", country: "IT", detail: "300 ml", price: "€3" },
+  { name: "Sparkling Lavender Lemonade", country: "IT", detail: "250 ml", price: "€3.5" },
 ];
 
 const profileLists = [
-  {
-    imgPath: "/images/profile1.png",
-  },
-  {
-    imgPath: "/images/profile2.png",
-  },
-  {
-    imgPath: "/images/profile3.png",
-  },
-  {
-    imgPath: "/images/profile4.png",
-  },
+  { imgPath: "/images/profile1.png" },
+  { imgPath: "/images/profile2.png" },
+  { imgPath: "/images/profile3.png" },
+  { imgPath: "/images/profile4.png" },
 ];
 
 const featureLists = [
-  "Autentici sapori italiani",
-  "Ingredienti freschi e locali",
-  "Serviti con eleganza",
-  "Tradizione e innovazione nel bicchiere",
+  "Yummy and Fun Flavors",
+  "Fresh and Natural Ingredients",
+  "Served with a Smile",
+  "Creative and Colorful Drinks",
 ];
 
 const goodLists = [
-  "Ingredienti selezionati a mano",
-  "Tecniche di miscelazione italiane",
-  "Arte della mixology",
-  "Gusto fresco in ogni sorso",
+  "Picked with Care",
+  "Fun Mixing Recipes",
+  "Cool Drink Creations",
+  "Every Sip is a Smile",
 ];
 
 const storeInfo = {
-  heading: "Dove Trovarci",
-  address: "Via Roma 123, Milano, Italia",
+  heading: "Visit Us",
+  address: "123 Roma Street, Milan, Italy",
   contact: {
     phone: "+39 055 987 6543",
-    email: "ciao@italianobar.com",
+    email: "hello@funbar.com",
   },
 };
 
 const openingHours = [
-  { day: "Lun–Gio", time: "11:00 – 00:00" },
-  { day: "Ven", time: "11:00 – 02:00" },
-  { day: "Sab", time: "10:00 – 02:00" },
-  { day: "Dom", time: "10:00 – 01:00" },
+  { day: "Mon–Thu", time: "11:00 AM – 10:00 PM" },
+  { day: "Fri", time: "11:00 AM – 11:00 PM" },
+  { day: "Sat", time: "10:00 AM – 11:00 PM" },
+  { day: "Sun", time: "10:00 AM – 9:00 PM" },
 ];
 
 const socials = [
-  {
-    name: "Instagram",
-    icon: "/images/insta.png",
-    url: "#",
-  },
-  {
-    name: "X (Twitter)",
-    icon: "/images/x.png",
-    url: "#",
-  },
-  {
-    name: "Facebook",
-    icon: "/images/fb.png",
-    url: "#",
-  },
+  { name: "Instagram", icon: "/images/insta.png", url: "#" },
+  { name: "X (Twitter)", icon: "/images/x.png", url: "#" },
+  { name: "Facebook", icon: "/images/fb.png", url: "#" },
 ];
 
 const sliderLists = [
   {
     id: 1,
-    name: "Negroni Sbagliato",
+    name: "Fruity Fun Mix",
     image: "/images/drink1.png",
-    title: "Un Classico con un Twist",
+    title: "A Yummy Surprise",
     description:
-      "Creato a Milano, il Negroni Sbagliato unisce Prosecco, Vermouth e Campari per un gusto raffinato e leggermente frizzante.",
+      "A colorful mix of fruit flavors that makes every sip taste like a party in your mouth.",
   },
   {
     id: 2,
-    name: "Aperol Spritz",
+    name: "Orange Sparkle",
     image: "/images/drink2.png",
-    title: "Il Re dell’Aperitivo Italiano",
+    title: "Bubbly and Bright",
     description:
-      "Un mix fresco di Aperol, Prosecco e soda: leggero, frizzante e perfetto per ogni tramonto estivo.",
+      "A cheerful orange drink that’s fizzy and full of smiles, perfect for any sunny day.",
   },
   {
     id: 3,
-    name: "Bellini Veneziano",
+    name: "Peachy Dream",
     image: "/images/drink3.png",
-    title: "Dolce, Fruttato, Elegante",
+    title: "Sweet and Smooth",
     description:
-      "Prosecco e purea di pesca bianca creano un cocktail elegante, nato a Venezia per celebrare momenti speciali.",
+      "A gentle mix of peach flavor that feels like a soft hug in a glass.",
   },
   {
     id: 4,
-    name: "Limoncello Tonic",
+    name: "Lemon Zing",
     image: "/images/drink4.png",
-    title: "Freschezza Mediterranea",
+    title: "Crisp and Refreshing",
     description:
-      "Un mix di Limoncello, acqua tonica e scorza di limone: fresco, frizzante e irresistibilmente italiano.",
+      "A zippy lemon drink that’s sparkling and fun, giving you a burst of happiness.",
   },
 ];
 

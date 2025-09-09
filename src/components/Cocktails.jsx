@@ -29,8 +29,7 @@ const Cocktails = () => {
 
     <div className="list">
         <div className="popular">
-            <h2>Most popular Cocktails:</h2>
-
+<h2>Our Yummiest Drinks:</h2>
             <ul>
                 {cocktailLists.map((cocktail, index) => (
                     <li key={index}>
@@ -44,7 +43,7 @@ const Cocktails = () => {
             </ul>
         </div>
          <div className="popular">
-            <h2>Most popular mockTails:</h2>
+            <h2>Fun Mocktails:</h2>
 
             <ul>
                 {mockTailLists.map((cocktail, index) => (
